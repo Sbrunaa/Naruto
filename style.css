@@ -85,6 +85,12 @@ nav button {
     box-shadow: 0 2px 4px rgb(0, 0, 0,0,1);/*sombra leve*/
 }
 
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
 /*estiliza o rodapé da página*/
 footer {
     background-color: rgba(255, 255, 255, 0);/*cor de fundo*/
