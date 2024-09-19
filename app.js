@@ -7,9 +7,11 @@ function pesquisar(){
 
     //se campoPesquisa for uma string vazia
     if(!campoPesquisa) {
-        section.innerHTML ="<p.Você precisa digitar o nome do personagem ou seu clã.</p>"
-        section.innerHTML ="<p>nada foi encontrado</p>"
-        return
+        section.innerHTML =
+            "<p.Você precisa digitar o nome do personagem ou seu clã.</p>";
+        section.innerHTML =
+            "<p>nada foi encontrado</p>";
+        return;
     }
     
     //faz com que as letras fiquem minusculas
