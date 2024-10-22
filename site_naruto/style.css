@@ -43,7 +43,7 @@ nav {
 nav input { 
     width: 30rem;/*largura dos inputs*/
     border: none;/*remove a borda padrão*/
-    padding: 1rem;/*espaçamento interno*/
+    padding: 0.8rem;/*espaçamento interno*/
     border-radius: 1rem;/*borda arrepondada*/
     margin-bottom: 1rem;/*espaçamento abaixo dos inputs*/
     color: #45474B;/*cor do texto*/
@@ -55,7 +55,7 @@ nav input {
 /*estiliz os botões das seções*/
 nav button {
     right:  50px;
-    padding:  0.8rem 2rem;/*espaçameto interno do botão*/
+    padding:  0.8rem 1.5rem;/*espaçameto interno do botão*/
     border: none;/*remove borda padrão*/
     border-radius: 1.5rem;/*borda arredondada*/
     background-color:rgba(255, 255, 255, 0.281);/*cor do botão*/
