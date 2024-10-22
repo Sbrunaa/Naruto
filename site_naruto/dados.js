@@ -6,15 +6,13 @@ let dados = [
         cla:"",
         img:"imagens/Naruto.jpg",
         link:"https://pt.wikipedia.org/wiki/Naruto"
-        
-       
     },
     {
         titulo: "Jiraiya",
         texto:"Jiraiya é um dos lendários Sannin de Konoha, mestre de Naruto Uzumaki e uma figura carismática e poderosa. Conhecido por suas habilidades em Ninjutsu.",
         vila: "Oculta da folha",
         cla:"",
-        img:"imagens/jiraiya.jfif",
+        img:"imagens/jiraiya.jpg",
         link:"https://pt.wikipedia.org/wiki/Naruto"
     },
     {
