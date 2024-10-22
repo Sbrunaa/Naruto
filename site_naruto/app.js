@@ -42,7 +42,6 @@ function pesquisar(){
                                 <p class="card-text">${dado.texto}</p>
                                 <p class="card-text"><small class="text-body-secondary">Vila: ${dado.vila}</small>
                                 </p>
-                                
                                 <a href=${dado.link} target="_blank">Mais informações</a>
                             </div>
                         </div>
