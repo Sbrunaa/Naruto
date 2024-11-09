@@ -69,7 +69,7 @@ nav button {
     height: 50vh;/*altura da caixa de resultado*/
     overflow-y:auto;/*adiciona rolagem vertical se necessario*/
     margin-top: 0.6rem;/*espaçamento acima da caixa de resultado*/
-    padding: 0.2rem;/*espaçamento interno*/
+    padding: 0.1rem;/*espaçamento interno*/
     border-radius: 0.6rem;/*borda arredondada*/
 
     /*estiliza a barra de rolagem*/
@@ -89,6 +89,11 @@ nav button {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
     color: #30475E; /* Cor do texto dos links */
 }
+/*twxto abaixo do resumo do personagem*/
+.custom-padding {
+    padding-top: 0px;
+    padding-bottom: 1px;
+  }
 
 /*estiliza o rodapé da página*/
 footer {
@@ -100,7 +105,6 @@ footer {
     
 }
 /*texto do footer*/
-
 .text{
     margin-top: 0.8rem;
     color: rgb(241, 239, 239);/*cor de texto*/
