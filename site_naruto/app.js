@@ -22,12 +22,12 @@ function pesquisar(){
     let titulo ="";
     let vila ="";
 
-    //itera(ou obtém) cada dadoo da lista de dados
+    //itera(ou obtém) cada dado da lista de dados
     for(let dado of dados) {
         titulo = dado.titulo.toLowerCase()
         vila = dado.vila.toLowerCase()
-        
-        if(titulo.includes(campoPesquisa) || vila.includes(campoPesquisa)) {
+        cla = dado.cla.toLowerCase()        
+        if(titulo.includes(campoPesquisa) || vila.includes(campoPesquisa) || cla.includes(campoPesquisa)) {
             //cria um novo elemento html para cada resultado
             resultados +=`
             <div class="item-resultado">
@@ -40,8 +40,9 @@ function pesquisar(){
                             <div class="card-body">
                                 <h5 class="card-title">${dado.titulo}</h5>
                                 <p class="card-text">${dado.texto}</p>
-                                <p class="card-text"><small class="text-body-secondary">Vila: ${dado.vila}</small>
+                                <p class="card-text custom-padding"><small class="text-body-secondary">Vila: ${dado.vila}   Clã:${dado.cla}</small>
                                 </p>
+                                 
                                 <a href=${dado.link} target="_blank">Mais informações</a>
                             </div>
                         </div>
